@@ -27,7 +27,12 @@
               "src/apple-touch-icon.png",
               "src/robots.txt",
               "src/manifest.json",
-              "src/assets"
+              "src/assets",
+              {
+                "glob": "*",
+                "input": "src/docker/",
+                "output": "./"
+              }
             ],
             "styles": [
               "src/main.scss"
@@ -88,7 +93,12 @@
               "src/apple-touch-icon.png",
               "src/robots.txt",
               "src/manifest.json",
-              "src/assets"
+              "src/assets",
+              {
+                "glob": "*",
+                "input": "src/docker/",
+                "output": "./"
+              }
             ]
           }
         },
